@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Alata", sans-serif;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+/* home page  */
+main {
+  background-image: url("./images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 3rem;
+}
+.nav-items {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  margin-right: 0rem;
+  color: white;
+}
+.img-container {
+  margin-left: 7rem;
+}
+.hero-paragraph {
+  position: relative;
+  top: 20%;
+  left: 9%;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 4.5rem;
+  width: 50%;
+  text-transform: uppercase;
+  color: white;
+  outline: 2px solid white;
+  padding: 2rem;
+}
+/* about page  */
+.about-page {
+  position: relative;
+}
+.about-page img {
+  padding: 10rem;
+}
+.text-container {
+  position: absolute;
+  top: 22rem;
+  right: -1rem;
+  width: 45%;
+  background-color: white;
+  padding: 5rem;
+}
+.text-container h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.text-container p {
+  margin-top: 2rem;
+  color: grey;
+}
+/* our  creation  */
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 7rem;
+}
+.heading-container h1 {
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.heading-container button {
+  background: inherit;
+  text-transform: uppercase;
+  border: 2px solid gray;
+  padding: 0.7rem 3rem;
+  height: 19%;
+  letter-spacing: 5px;
+}
+.image-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 6rem;
+}
+.box {
+  height: 400px;
+  width: 250px;
+  margin: 0.5rem;
+}
+.box p {
+  color: white;
+
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  position: relative;
+  top: 250px;
+  padding: 2.9rem;
+}
+
+.deep-earth {
+  background-image: url("./images/desktop/image-deep-earth.jpg");
+}
+.night-arcade {
+  background-image: url("./images/desktop/image-night-arcade.jpg");
+}
+.soccer-team {
+  background-image: url("./images/desktop/image-soccer-team.jpg");
+}
+.the-grid {
+  background-image: url("./images/desktop/image-grid.jpg");
+}
+.from-above {
+  background-image: url("./images/desktop/image-from-above.jpg");
+}
+.pocket-borealis {
+  background-image: url("./images/desktop/image-pocket-borealis.jpg");
+}
+.curiosity {
+  background-image: url("./images/desktop/image-curiosity.jpg");
+}
+.fisheye {
+  background-image: url("./images/desktop/image-fisheye.jpg");
+}
+/* footer  */
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+}
+.footer-links img {
+  padding: 1rem;
+}
+.footer-links {
+  width: 50%;
+  height: 100%;
+}
+
+.links a {
+  margin-top: -1.3rem;
+  padding: 1rem;
+  color: white;
+}
+.social img {
+  padding: 0.6rem;
+  float: right;
+}
+.social-container {
+  width: 23%;
+}
+.social-container p {
+  float: left;
+}

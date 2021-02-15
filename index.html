@@ -14,6 +14,21 @@
   </head>
   <body>
     <main>
+        <div class="overlay">
+            <div class="overlay-images">
+                <img src="./images/logo.svg" alt="logo">
+                <div class="close-img" onclick="handleClose()">
+                    <img src="./images/icon-close.svg" class="close"  alt="close">
+                </div>
+            </div>
+            <div class="overlay-text">
+                <p>About</p>
+                <p>careers</p>
+                <p>Events</p>
+                <p>Products</p>
+                <p>Support</p>
+            </div>
+            </div>
       <nav>
         <div class="img-container">
           <img src="./images/logo.svg" alt="Logo" />
@@ -24,6 +39,10 @@
           <p>Events</p>
           <p>Products</p>
           <p>Support</p>
+        </div>
+      
+        <div class="burger">
+            <img  class="burger" src="./images/icon-hamburger.svg" alt="burger" onclick="handleClick()">
         </div>
       </nav>
       <p class="hero-paragraph">Immersive experiences that deliver</p>
@@ -46,14 +65,14 @@
         <button>see all</button>
       </div>
       <div class="image-gallery">
-        <div class="deep-earth box"><p>deep earth</p></div>
-        <div class="night-arcade box"><p>night arcade</p></div>
-        <div class="soccer-team box"><p>soccer team vr</p></div>
-        <div class="the-grid box"><p>the grid</p></div>
-        <div class="from-above box"><p>form up above vr</p></div>
-        <div class="pocket-borealis box"><p>pocket borealis</p></div>
-        <div class="curiosity box"><p>the curiosity</p></div>
-        <div class="fisheye box"><p>make it fisheye</p></div>
+        <div class="deep-earth box over"><p>deep earth</p></div>
+        <div class="night-arcade box over"><p>night arcade</p></div>
+        <div class="soccer-team box over"><p>soccer team vr</p></div>
+        <div class="the-grid box over"><p>the grid</p></div>
+        <div class="from-above box over"><p>form up above vr</p></div>
+        <div class="pocket-borealis box over"><p>pocket borealis</p></div>
+        <div class="curiosity box over"><p>the curiosity</p></div>
+        <div class="fisheye box over"><p>make it fisheye</p></div>
       </div>
     </section>
     <footer>
@@ -78,4 +97,15 @@
       </div>
     </footer>
   </body>
+  <script>
+      const  handleClick =()=>{
+           const overlay = document.querySelector('.overlay')
+           overlay.classList.add('bl')
+      }
+      const handleClose =()=>{
+          const close = document.querySelector('.close-img')
+           const overlay = document.querySelector('.overlay')
+          overlay.classList.remove('bl');
+      }
+  </script>
 </html>

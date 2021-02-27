@@ -28,6 +28,10 @@ nav {
   margin-right: 0rem;
   color: white;
 }
+.nav-items a{
+  color: white;
+
+}
 .overlay {
   display: none;
 }
@@ -97,6 +101,7 @@ nav {
   border: 2px solid gray;
   padding: 0.7rem 3rem;
   height: 19%;
+  cursor: pointer;
   letter-spacing: 5px;
 }
 .image-gallery {
@@ -106,7 +111,7 @@ nav {
   padding: 6rem;
 }
 .box {
-  min-height: 400px;
+  height: 400px;
   width: 250px;
   margin: 0.5rem;
   position: relative;
@@ -121,8 +126,6 @@ nav {
   padding: 2.9rem;
 }
 .over {
-  min-height: 400px;
-  width: 250px;
   background-color: white;
   z-index: 20;
 }
@@ -168,11 +171,13 @@ footer {
 .footer-links {
   width: 50%;
   height: 100%;
+
 }
 
 .links a {
   margin-top: -1.3rem;
-  padding: 1rem;
+  padding: 0 0.5rem;
+  height: 100%;
   color: white;
 }
 .social img {
@@ -317,11 +322,12 @@ footer {
     justify-content: center;
     margin: 0;
     padding: 0;
-    height: 50vh;
+    height: 60vh;
   }
   .footer-links {
     margin: 0;
     padding: 0;
+    min-width: 100%;
   }
   .links {
     display: flex;
@@ -335,7 +341,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: -5rem;
-    width: 40%;
+    width: 50%;
   }
 }
 @media screen and (max-width: 628px) {
